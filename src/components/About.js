@@ -1,11 +1,11 @@
 import React from "react";
-import { image } from "../data/data.js"; // Ensure this image variable points to a valid image file
+import { image } from "../data/data.js";
 
 function About() {
   return (
     <div id="about">
       <h2>About Me</h2>
-      <p>I enjoy building websites and learning JavaScript!</p>
+      <p>This is a short description about me.</p>
       <img src={image} alt="I made this" />
     </div>
   );
